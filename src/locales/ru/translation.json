@@ -46,6 +46,47 @@
         "title": "Galaxy Unpacked Special",
         "text": "Откройте для себя смелую новую серию",
         "button": "Смотреть в прямом эфире"
+      },
+      "shop": {
+        "title": "Приобретайте все последние продукты и инновации",
+        "link": "Просмотреть все предложения",
+        "categories": [
+          "Для вас",
+          "Новые",
+          "Мобильные устройства",
+          "ТВ и аудио",
+          "Бытовая техника",
+          "Вычислительная техника"
+        ],
+        "tabs": {
+          "for_you": [
+            {
+              "img": "https://images.samsung.com/is/image/samsung/assets/us/homepage/hp/05142025/CX_HP_MerchMod_LargeCard_S25Edge_DT.jpg?$684_684_JPG$",
+              "title": "Galaxy S25 Edge",
+              "button": "Забронить прямо сейчас"
+            },
+            {
+              "img": "https://images.samsung.com/is/image/samsung/assets/us/home/05142025/SDSAC-9018-Frame-Pro-LS03F-HP-MM-SmallTile-DT-160x160.png?$160_160_PNG$",
+              "title": "75” Class The Frame Pro",
+              "button": "Купить сейчас"
+            },
+            {
+              "img": "https://images.samsung.com/is/image/samsung/assets/us/homepage/04222025/S10FE_SmDT.png?$160_160_PNG$",
+              "title": "Galaxy Tab S10 FE+",
+              "button": "Купить сейчас"
+            },
+            {
+              "img": "https://images.samsung.com/is/image/samsung/assets/us/homepage/04222025/FamHub_SmDT.png?$160_160_PNG$",
+              "title": "Bespoke AI Family Hub™+",
+              "button": "Купить сейчас"
+            },
+            {
+              "img": "https://images.samsung.com/is/image/samsung/assets/us/homepage/04222025/Monitor_SmDT.png?$160_160_PNG$",
+              "title": "27” Odyssey 3D Gaming Monitor",
+              "button": "Купить сейчас"
+            }
+          ]
+        }
       }
     }
   }

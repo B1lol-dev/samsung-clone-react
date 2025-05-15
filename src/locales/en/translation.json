@@ -46,6 +46,47 @@
         "title": "Galaxy Unpacked Special",
         "text": "Discover a bold new series",
         "button": "Watch live"
+      },
+      "shop": {
+        "title": "Shop all latest products and innovations",
+        "link": "View all offers",
+        "categories": [
+          "For You",
+          "New",
+          "Mobile",
+          "TV & Audio",
+          "Home Appliances",
+          "Computing"
+        ],
+        "tabs": {
+          "for_you": [
+            {
+              "img": "https://images.samsung.com/is/image/samsung/assets/us/homepage/hp/05142025/CX_HP_MerchMod_LargeCard_S25Edge_DT.jpg?$684_684_JPG$",
+              "title": "Galaxy S25 Edge",
+              "button": "Pre-order now"
+            },
+            {
+              "img": "https://images.samsung.com/is/image/samsung/assets/us/home/05142025/SDSAC-9018-Frame-Pro-LS03F-HP-MM-SmallTile-DT-160x160.png?$160_160_PNG$",
+              "title": "75” Class The Frame Pro",
+              "button": "Buy now"
+            },
+            {
+              "img": "https://images.samsung.com/is/image/samsung/assets/us/homepage/04222025/S10FE_SmDT.png?$160_160_PNG$",
+              "title": "Galaxy Tab S10 FE+",
+              "button": "Buy now"
+            },
+            {
+              "img": "https://images.samsung.com/is/image/samsung/assets/us/homepage/04222025/FamHub_SmDT.png?$160_160_PNG$",
+              "title": "Bespoke AI Family Hub™+",
+              "button": "Buy now"
+            },
+            {
+              "img": "https://images.samsung.com/is/image/samsung/assets/us/homepage/04222025/Monitor_SmDT.png?$160_160_PNG$",
+              "title": "27” Odyssey 3D Gaming Monitor",
+              "button": "Buy now"
+            }
+          ]
+        }
       }
     }
   }

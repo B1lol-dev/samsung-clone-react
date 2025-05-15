@@ -40,3 +40,21 @@ export const SLIDER_ITEMS = () => {
     },
   ];
 };
+
+export const SHOP_TABS = () => {
+  const { t } = useTranslation("translation");
+
+  const forYouData = t("pages.home.shop.tabs.for_you", {
+    returnObjects: true,
+  }) as { title: string; button: string; img: string }[];
+
+  const data = forYouData.map((item) => {
+    return {
+      img: item.img || "",
+      title: item.title || t("pages.home.shop.tabs.for_you.defaultTitle"),
+      button: item.button || t("pages.home.shop.tabs.for_you.defaultButton"),
+    };
+  });
+
+  return data;
+};
