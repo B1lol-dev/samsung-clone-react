@@ -87,6 +87,11 @@
             }
           ]
         }
+      },
+      "upgrade_home_banner": {
+        "suptext": "Next-gen tech",
+        "title": "Upgrade your home with AI this summer",
+        "button": "Shop now"
       }
     }
   }
