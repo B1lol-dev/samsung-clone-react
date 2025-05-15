@@ -1,0 +1,17 @@
+{
+  "header": {
+    "chose_loc_lang": "Choose your location and language.",
+    "continue_btn": "Continue",
+    "nav_links": [
+      "Offers",
+      "Mobile",
+      "TV & Audio",
+      "Appliances",
+      "Computing & Displays",
+      "Accessories",
+      "AI",
+      "SmartThings"
+    ],
+    "search": "Search"
+  }
+}
