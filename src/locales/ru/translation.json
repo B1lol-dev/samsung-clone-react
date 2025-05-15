@@ -92,7 +92,64 @@
         "suptext": "Технологии следующего поколения",
         "title": "Обновите свой дом с помощью ИИ этим летом",
         "button": "Смотреть сейчас"
-      }
+      },
+      "feature_sections": [
+        {
+          "title": "Мобильные",
+          "tabList": [
+            "Galaxy S25 Ultra",
+            "Galaxy Z Fold6",
+            "Galaxy Tab S10 FE+",
+            "Galaxy Watch Ultra"
+          ],
+          "mainText": "Galaxy S25 Ultra",
+          "desc": "Получите мгновенную скидку до 630 долларов США и удвойте объем хранилища за наш счет.",
+          "detailsBtn": "Подробнее о телефоне",
+          "btnText": "Купить сейчас",
+          "img": "https://images.samsung.com/is/image/samsung/assets/us/2505/home/hp/05082025/SDSAC-9145-S25U-Lifestyle-HP_LOB_FullBleed_DT_1440x810_2.jpg?$1440_810_JPG$",
+          "colorTheme": "light"
+        },
+        {
+          "title": "ТВ и аудио",
+          "tabList": ["Neo QLED QN70F", "Neo QLED QN1EF", "Q-Series Soundbar "],
+          "mainText": "Ультратонкий и мощный",
+          "desc": "Neo QLED 4K QN70F — изящный, ультратонкий телевизор с улучшенным на основе искусственного интеллекта качеством изображения 4K, как раз для летнего просмотра.",
+          "detailsBtn": "Подробнее о тв",
+          "btnText": "Купить сейчас",
+          "img": "https://images.samsung.com/is/image/samsung/assets/us/2505/home/hp/05082025/Neo_QLED_LOB__DT_1440x810.jpg?$1440_810_JPG$",
+          "colorTheme": "dark"
+        },
+        {
+          "title": "Бытовая техника",
+          "tabList": [
+            "Bespoke Refrigerators",
+            "Bespoke Laundry",
+            "Bespoke Vacuum",
+            "Bespoke Dishwashers"
+          ],
+          "mainText": "Горячие предложения на крутые приборы",
+          "desc": "В этот День памяти сэкономьте до $1800 на холодильниках Bespoke. Плюс получите скидку до $350 с мгновенным кредитом на обмен и 3 годами Samsung Care+ всего за $1 при определенных покупках.",
+          "detailsBtn": "Смотреть все предложения по бытовой технике",
+          "btnText": "Купить сейчас",
+          "img": "https://images.samsung.com/is/image/samsung/assets/us/home/05142025/DA-HP-LOB-01-Ref-DT.jpg?$1440_810_JPG$",
+          "colorTheme": "light"
+        },
+        {
+          "title": "Мониторы и память",
+          "tabList": [
+            "49\" Odyssey G9",
+            "27\" Odyssey 3D",
+            "27\" Odyssey G8",
+            "9100 PRO SSD"
+          ],
+          "mainText": "Окунитесь в захватывающие детали",
+          "desc": "Погрузитесь в панорамный игровой процесс с изогнутым дисплеем 1000R.",
+          "detailsBtn": "Узнать больше",
+          "btnText": "Купить сейчас",
+          "img": "https://images.samsung.com/is/image/samsung/assets/us/homepage/hp/04282025/SDSAC-9060-LS49FG910ENXZA-KV-HP_LOB_FullBleed_DT_1440x810.jpg?$1440_810_JPG$",
+          "colorTheme": "dark"
+        }
+      ]
     }
   }
 }

@@ -1,3 +1,5 @@
+import { FEATURE_SECTIONS } from "@/static/pages/home";
+import { FeatureSection } from "./components/FeatureSection";
 import { HeroSlider } from "./components/HeroSlider";
 import { LiveBanner } from "./components/LiveBanner";
 import { NewProducts } from "./components/NewProducts";
@@ -12,6 +14,19 @@ export const Home = () => {
       <Shop />
       <UpgradeHomeBanner />
       <NewProducts />
+      {FEATURE_SECTIONS().map((section, index) => (
+        <FeatureSection
+          title={section.title}
+          tabList={section.tabList}
+          mainText={section.mainText}
+          desc={section.desc}
+          detailsBtn={section.detailsBtn}
+          btnText={section.btnText}
+          img={section.img}
+          colorTheme={section.colorTheme}
+          key={index}
+        />
+      ))}
     </>
   );
 };

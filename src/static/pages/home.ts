@@ -133,3 +133,13 @@ export const NEW_PRODUCTS = () => {
 
   return data;
 };
+
+export const FEATURE_SECTIONS = () => {
+  const [t] = useTranslation("translation");
+
+  const sections = t("pages.home.feature_sections", {
+    returnObjects: true,
+  }) as Record<string, string>;
+
+  return sections;
+};

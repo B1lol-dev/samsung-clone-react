@@ -92,7 +92,64 @@
         "suptext": "Next-gen tech",
         "title": "Upgrade your home with AI this summer",
         "button": "Shop now"
-      }
+      },
+      "feature_sections": [
+        {
+          "title": "Mobile & Computing",
+          "tabList": [
+            "Galaxy S25 Ultra",
+            "Galaxy Z Fold6",
+            "Galaxy Tab S10 FE+",
+            "Galaxy Watch Ultra"
+          ],
+          "mainText": "Galaxy S25 Ultra",
+          "desc": "Get up to $630 instant trade-in and double the storage on us.",
+          "detailsBtn": "Shop more phone details",
+          "btnText": "Buy now",
+          "img": "https://images.samsung.com/is/image/samsung/assets/us/2505/home/hp/05082025/SDSAC-9145-S25U-Lifestyle-HP_LOB_FullBleed_DT_1440x810_2.jpg?$1440_810_JPG$",
+          "colorTheme": "light"
+        },
+        {
+          "title": "TV & Audio",
+          "tabList": ["Neo QLED QN70F", "Neo QLED QN1EF", "Q-Series Soundbar"],
+          "mainText": "Ultra-slim and packed with a punch",
+          "desc": "The Neo QLED 4K QN70F — a sleek, ultra-thin design delivering AI-enhanced 4K picture quality, just in time for your summer viewing.",
+          "detailsBtn": "Shop all TV deals",
+          "btnText": "Buy now",
+          "img": "https://images.samsung.com/is/image/samsung/assets/us/2505/home/hp/05082025/Neo_QLED_LOB__DT_1440x810.jpg?$1440_810_JPG$",
+          "colorTheme": "dark"
+        },
+        {
+          "title": "Home Appliances",
+          "tabList": [
+            "Bespoke Refrigerators",
+            "Bespoke Laundry",
+            "Bespoke Vacuum",
+            "Bespoke Dishwashers"
+          ],
+          "mainText": "Hot deals on cool appliances",
+          "desc": "This Memorial Day, save up to $1,800 on Bespoke refrigerators. Plus, get up to $350 off with instant trade-in credit and 3 years of Samsung Care+ for as low as $1 with select purchases.",
+          "detailsBtn": "Shop all appliance deals",
+          "btnText": "Shop now",
+          "img": "https://images.samsung.com/is/image/samsung/assets/us/home/05142025/DA-HP-LOB-01-Ref-DT.jpg?$1440_810_JPG$",
+          "colorTheme": "light"
+        },
+        {
+          "title": "Monitors & Memory",
+          "tabList": [
+            "49\" Odyssey G9",
+            "27\" Odyssey 3D",
+            "27\" Odyssey G8",
+            "9100 PRO SSD"
+          ],
+          "mainText": "Wrap yourself in spectacular detail",
+          "desc": "Immerse yourself in a panoramic gaming experience with a 1000R curved display.",
+          "detailsBtn": "Learn more",
+          "btnText": "Buy now",
+          "img": "https://images.samsung.com/is/image/samsung/assets/us/homepage/hp/04282025/SDSAC-9060-LS49FG910ENXZA-KV-HP_LOB_FullBleed_DT_1440x810.jpg?$1440_810_JPG$",
+          "colorTheme": "dark"
+        }
+      ]
     }
   }
 }
