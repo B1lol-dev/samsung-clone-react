@@ -134,12 +134,24 @@ export const NEW_PRODUCTS = () => {
   return data;
 };
 
+type TColorTheme = "light" | "dark";
+interface IFeatureSectionData {
+  title: string;
+  tabList: string[];
+  img: string;
+  mainText: string;
+  desc: string;
+  detailsBtn: string;
+  btnText: string;
+  colorTheme?: TColorTheme | string;
+}
+
 export const FEATURE_SECTIONS = () => {
   const [t] = useTranslation("translation");
 
   const sections = t("pages.home.feature_sections", {
     returnObjects: true,
-  }) as Record<string, string>;
+  }) as Array<IFeatureSectionData>;
 
   return sections;
 };
