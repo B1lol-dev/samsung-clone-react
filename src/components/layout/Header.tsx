@@ -129,7 +129,7 @@ function SubHeader() {
             {/* <SelectItem value="other">Other</SelectItem> */}
           </SelectContent>
         </Select>
-        <Button className="ml-4 rounded-full h-10 text-sm px-6">
+        <Button className="ml-4 rounded-full h-10 text-sm px-6 border-1 border-black hover:bg-white hover:text-black">
           {t("header.continue_btn")}
         </Button>
         <button

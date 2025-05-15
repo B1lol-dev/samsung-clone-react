@@ -13,5 +13,35 @@
       "SmartThings"
     ],
     "search": "Поиск"
+  },
+  "pages": {
+    "home": {
+      "slider": {
+        "1": {
+          "title": "Galaxy Book4",
+          "subtitle": "Galaxy AI",
+          "tagline": "Beyond slim",
+          "description": "Сэкономьте до 750 долларов США, воспользовавшись услугой хранения вдвое большего объема за наш счет и мгновенным кредитом на сумму до 630 долларов США при обмене.",
+          "cta": "Оформить предварительный заказ сейчас",
+          "learnMore": "Узнать больше"
+        },
+        "2": {
+          "title": "Galaxy S25 Edge",
+          "subtitle": "Powered by AI",
+          "tagline": "Next level productivity",
+          "description": "Почувствуйте новую эру ПК с Galaxy AI и Snapdragon X Elite.",
+          "cta": "Купить сейчас",
+          "learnMore": "Узнать больше"
+        },
+        "3": {
+          "title": "Neo QLED 8K",
+          "subtitle": "2024 Collection",
+          "tagline": "Brilliant by design",
+          "description": "Поднимите свои впечатления от просмотра на новый уровень с нашим самым передовым телевизором.",
+          "cta": "Смотреть сейчас",
+          "learnMore": "Узнать больше"
+        }
+      }
+    }
   }
 }

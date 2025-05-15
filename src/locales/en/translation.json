@@ -13,5 +13,35 @@
       "SmartThings"
     ],
     "search": "Search"
+  },
+  "pages": {
+    "home": {
+      "slider": {
+        "1": {
+          "title": "Galaxy S25 Edge",
+          "subtitle": "Galaxy AI",
+          "tagline": "Beyond slim",
+          "description": "Save up to $750 with double the storage on us and up to $630 instant trade-in credit.",
+          "cta": "Pre-order now",
+          "learnMore": "Learn more"
+        },
+        "2": {
+          "title": "Galaxy S25 Edge",
+          "subtitle": "Powered by AI",
+          "tagline": "Next level productivity",
+          "description": "Experience the new era of PC with Galaxy AI and Snapdragon X Elite.",
+          "cta": "Buy now",
+          "learnMore": "Learn more"
+        },
+        "3": {
+          "title": "Neo QLED 8K",
+          "subtitle": "2024 Collection",
+          "tagline": "Brilliant by design",
+          "description": "Elevate your viewing experience with our most advanced TV yet.",
+          "cta": "Watch now",
+          "learnMore": "Learn more"
+        }
+      }
+    }
   }
 }

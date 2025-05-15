@@ -1,59 +1,22 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight, Pause, Play } from "lucide-react";
 import { Container } from "@/components/helpers/Container";
 
-const carouselItems = [
-  {
-    id: 1,
-    image:
-      "https://images.samsung.com/is/image/samsung/assets/in/2504/home/HOME_GalaxyS25Edge_Main-KV_1440x640_pc.jpg?imwidth=1366",
-    title: "Galaxy S25 Edge",
-    subtitle: "Galaxy AI",
-    tagline: "Beyond slim",
-    description:
-      "Save up to $750 with double the storage on us and up to $630 instant trade-in credit.",
-    cta: "Pre-order now",
-    learnMore: "Learn more",
-    bgColor: "from-blue-200 to-blue-900",
-  },
-  {
-    id: 2,
-    image:
-      "https://images.samsung.com/is/image/samsung/assets/us/2505/home/hp/05082025/Scom_HP_HD01_KV4-S25U-PC.jpg?$LazyLoad_Home_JPG$",
-    title: "Galaxy Book4",
-    subtitle: "Powered by AI",
-    tagline: "Next level productivity",
-    description:
-      "Experience the new era of PC with Galaxy AI and Snapdragon X Elite.",
-    cta: "Buy now",
-    learnMore: "Learn more",
-    bgColor: "from-purple-200 to-purple-900",
-  },
-  {
-    id: 3,
-    image: "/placeholder.svg?height=800&width=1600",
-    title: "Neo QLED 8K",
-    subtitle: "2024 Collection",
-    tagline: "Brilliant by design",
-    description:
-      "Elevate your viewing experience with our most advanced TV yet.",
-    cta: "Shop now",
-    learnMore: "Learn more",
-    bgColor: "from-gray-200 to-gray-900",
-  },
-];
+import { SLIDER_ITEMS } from "@/static/pages/home";
 
 export const HeroSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPlaying, setIsPlaying] = useState(true);
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
-  const nextSlide = () => {
+  const carouselItems = SLIDER_ITEMS();
+
+  const nextSlide = useCallback(() => {
     setCurrentSlide((prev) =>
       prev === carouselItems.length - 1 ? 0 : prev + 1
     );
-  };
+  }, [carouselItems.length]);
 
   const prevSlide = () => {
     setCurrentSlide((prev) =>
@@ -83,109 +46,105 @@ export const HeroSlider = () => {
         clearInterval(intervalRef.current);
       }
     };
-  }, [isPlaying, currentSlide]);
+  }, [isPlaying, currentSlide, nextSlide]);
 
   return (
-    <Container>
-      <div
-        className="relative w-full overflow-hidden"
-        onMouseEnter={() => setIsPlaying(false)}
-        onMouseLeave={() => setIsPlaying(true)}
-      >
+    <section>
+      <Container>
         <div
-          className="flex transition-transform duration-500 ease-in-out"
-          style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+          className="relative w-full overflow-hidden"
+          onMouseEnter={() => setIsPlaying(false)}
+          onMouseLeave={() => setIsPlaying(true)}
         >
-          {carouselItems.map((item) => (
-            <div
-              key={item.id}
-              className={`relative min-w-full h-[500px] md:h-[600px] lg:h-[700px] bg-gradient-to-r ${item.bgColor}`}
-            >
-              <div className="absolute inset-0 flex items-center justify-center">
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="object-cover"
-                />
-              </div>
-
-              <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-between p-8 md:p-16">
-                <div className="text-white max-w-md z-10 text-center md:text-left">
-                  <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-2">
-                    {/* {item.title} */}
-                  </h2>
-                  <h3 className="text-xl md:text-2xl font-medium mb-6">
-                    {/* {item.subtitle} */}
-                  </h3>
-                  <p className="mb-6 text-sm md:text-base text-black mt-50">
-                    {item.description}
-                  </p>
-                  <div className="flex flex-col sm:flex-row gap-4">
-                    <Button variant="link" className="text-black underline">
-                      {item.learnMore}
-                    </Button>
-                    <Button
-                      variant="default"
-                      className="bg-black hover:bg-gray-800 text-white rounded-full px-6"
-                    >
-                      {item.cta}
-                    </Button>
+          <div
+            className="flex transition-transform duration-500 ease-in-out"
+            style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+          >
+            {carouselItems.map((item) => (
+              <div
+                key={item.id}
+                className={`relative min-w-full h-[500px] md:h-[600px] lg:h-[700px] bg-gradient-to-r ${item.bgColor}`}
+              >
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <img
+                    src={item.image}
+                    alt={item.title}
+                    className="object-cover"
+                  />
+                </div>
+                <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-between p-8 md:p-16">
+                  <div className="text-white max-w-md z-10 text-center md:text-left">
+                    <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-2">
+                      {/* {item.title} */}
+                    </h2>
+                    <h3 className="text-xl md:text-2xl font-medium mb-6">
+                      {/* {item.subtitle} */}
+                    </h3>
+                    <p className="mb-6 text-sm md:text-base text-black mt-50">
+                      {item.description}
+                    </p>
+                    <div className="flex flex-col sm:flex-row gap-4">
+                      <Button variant="link" className="text-black underline">
+                        {item.learnMore}
+                      </Button>
+                      <Button
+                        variant="default"
+                        className="bg-black hover:bg-gray-800 text-white rounded-full px-6"
+                      >
+                        {item.cta}
+                      </Button>
+                    </div>
+                  </div>
+                  <div className="hidden md:block text-white text-right max-w-md z-10">
+                    <h3 className="text-3xl md:text-4xl lg:text-5xl font-light">
+                      {/* {item.tagline} */}
+                    </h3>
                   </div>
                 </div>
-
-                <div className="hidden md:block text-white text-right max-w-md z-10">
-                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-light">
-                    {/* {item.tagline} */}
-                  </h3>
-                </div>
               </div>
-            </div>
-          ))}
-        </div>
-
-        {/* Navigation */}
-        <button
-          onClick={prevSlide}
-          className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white rounded-full p-2 z-20"
-          aria-label="Previous slide"
-        >
-          <ChevronLeft className="h-6 w-6" />
-        </button>
-
-        <button
-          onClick={nextSlide}
-          className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white rounded-full p-2 z-20"
-          aria-label="Next slide"
-        >
-          <ChevronRight className="h-6 w-6" />
-        </button>
-
-        {/* Indicator Dots */}
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-2 z-20">
-          {carouselItems.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => goToSlide(index)}
-              className={`h-1 rounded-full transition-all ${
-                currentSlide === index ? "w-32 bg-white" : "w-32 bg-white/50"
-              }`}
-              aria-label={`Go to slide ${index + 1}`}
-            />
-          ))}
-
+            ))}
+          </div>
+          {/* Navigation */}
           <button
-            onClick={togglePlayPause}
-            className="ml-4 bg-black/30 hover:bg-black/50 text-white rounded-full p-1"
-            aria-label={isPlaying ? "Pause" : "Play"}
+            onClick={prevSlide}
+            className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white rounded-full p-2 z-20"
+            aria-label="Previous slide"
           >
-            {isPlaying ? (
-              <Pause className="h-4 w-4" />
-            ) : (
-              <Play className="h-4 w-4" />
-            )}
+            <ChevronLeft className="h-6 w-6" />
           </button>
+          <button
+            onClick={nextSlide}
+            className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white rounded-full p-2 z-20"
+            aria-label="Next slide"
+          >
+            <ChevronRight className="h-6 w-6" />
+          </button>
+          {/* Indicator Dots */}
+          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-2 z-20">
+            {carouselItems.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => goToSlide(index)}
+                className={`h-1 rounded-full transition-all ${
+                  currentSlide === index ? "w-32 bg-white" : "w-32 bg-white/50"
+                }`}
+                aria-label={`Go to slide ${index + 1}`}
+              />
+            ))}
+            <button
+              onClick={togglePlayPause}
+              className="ml-4 bg-black/30 hover:bg-black/50 text-white rounded-full p-1"
+              aria-label={isPlaying ? "Pause" : "Play"}
+            >
+              {isPlaying ? (
+                <Pause className="h-4 w-4" />
+              ) : (
+                <Play className="h-4 w-4" />
+              )}
+            </button>
+          </div>
         </div>
-      </div>
-    </Container>
+      </Container>
+    </section>
   );
 };
