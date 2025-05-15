@@ -58,3 +58,78 @@ export const SHOP_TABS = () => {
 
   return data;
 };
+
+export const NEW_PRODUCTS = () => {
+  //   const { t } = useTranslation("translation");
+
+  const data = [
+    {
+      name: "Galaxy S25 Edge",
+      href: "/smartphones/galaxy-s25-edge/",
+      title: "Pre-order now",
+      img: "https://images.samsung.com/is/image/samsung/assets/us/home/05142025/CX_HP_Carousel_S25Edge_DT.png?$268_268_PNG$",
+    },
+    {
+      name: "Galaxy Tab S10 FE+",
+      href: "/tablets/galaxy-tab-s10-fe/buy/galaxy-tab-s10-fe-plus-blue-128gb-sku-sm-x620nlbaxar/",
+      title: "Buy now",
+      img: "https://images.samsung.com/is/image/samsung/assets/us/home/05022025/CX_HP_Carousel_TabS10FE_DT_268x268.png?$268_268_PNG$",
+    },
+    {
+      name: "Bespoke AI Vacuum",
+      href: "/home-appliances/vacuums/jet-stick/bespoke-ai-jet-ultra-cordless-stick-vacuum-with-all-in-one-clean-station-and-400aw-suction-power-in-satin-black-vs90f40dmk-aa/",
+      title: "Buy now",
+      img: "https://images.samsung.com/is/image/samsung/assets/us/home/04172025/HP-Carousel_DT-02.png?$268_268_PNG$",
+    },
+    {
+      name: "Neo QLED 8K TV",
+      href: "/tvs/neo-qled/75-class-neo-qled-8k-tv-qn900f-sku-qn75qn900ffxza/",
+      title: "Buy now",
+      img: "https://images.samsung.com/is/image/samsung/assets/us/home/04172025/HP-Carousel_DT-03.png?$268_268_PNG$",
+    },
+    {
+      name: "Odyssey G9 Gaming Monitor",
+      href: "/monitors/gaming/49-inch-odyssey-g9-g91f-dqhd-144hz-gaming-monitor-sku-ls49fg910enxza/",
+      title: "Buy now",
+      img: "https://images.samsung.com/is/image/samsung/assets/us/home/04172025/HP-Carousel_DT-09.png?$268_268_PNG$",
+    },
+    {
+      name: "The Frame Pro",
+      href: "/lifestyle-tvs/the-frame/75-inch-class-the-frame-pro-neo-qled-4k-tv-ls03fw-sku-qn75ls03fwfxza/",
+      title: "Buy now",
+      img: "https://images.samsung.com/is/image/samsung/assets/us/home/04172025/HP-Carousel_DT-06.png?$268_268_PNG$",
+    },
+    {
+      name: "Bespoke Dishwasher",
+      href: "/home-appliances/dishwashers/rotary/38-dba-bespoke-smart-dishwasher-with-3rd-rack-washing-system-in-fingerprint-resistant-stainless-steel-dw90f89t0usraa/",
+      title: "Buy now",
+      img: "https://images.samsung.com/is/image/samsung/assets/us/home/04172025/HP-Carousel_DT-07.png?$268_268_PNG$",
+    },
+    {
+      name: "Bespoke Refrigerator",
+      href: "/home-appliances/refrigerators/bespoke/bespoke-29-cu-ft-4-door-french-door-refrigerator-with-ai-home-ai-vision-inside-in-charcoal-glass-and-stainless-steel-rf90f29becraa/",
+      title: "Buy now",
+      img: "https://images.samsung.com/is/image/samsung/assets/us/home/04172025/HP-Carousel_DT-04.png?$268_268_PNG$",
+    },
+    {
+      name: "Neo QLED 4K TV",
+      href: "/tvs/neo-qled/75-class-neo-qled-4k-tv-qn90f-sku-qn75qn90fafxza/",
+      title: "Buy now",
+      img: "https://images.samsung.com/is/image/samsung/assets/us/home/04172025/HP-Carousel_DT-10.png?$268_268_PNG$",
+    },
+    {
+      name: "Bespoke AI Refrigerator",
+      href: "/home-appliances/refrigerators/bespoke/bespoke-23-cu-ft-counter-depth-4-door-french-door-refrigerator-with-ai-hybrid-cooling-beverage-center-in-stainless-steel-rm80f23vmraa/",
+      title: "Buy now",
+      img: "https://images.samsung.com/is/image/samsung/assets/us/home/04172025/HP-Carousel_DT-11.png?$268_268_PNG$",
+    },
+    {
+      name: "Ballie Home Robot",
+      href: "/projectors/home-robot-ballie/",
+      title: "Buy now",
+      img: "https://images.samsung.com/is/image/samsung/assets/us/home/05022025/CX_HP_Carousel_Ballie_DT_268x268.png?$268_268_PNG$",
+    },
+  ];
+
+  return data;
+};
