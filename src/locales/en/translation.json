@@ -41,6 +41,11 @@
           "cta": "Watch now",
           "learnMore": "Learn more"
         }
+      },
+      "live_banner": {
+        "title": "Galaxy Unpacked Special",
+        "text": "Discover a bold new series",
+        "button": "Watch live"
       }
     }
   }
