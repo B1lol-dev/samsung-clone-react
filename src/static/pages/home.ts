@@ -155,3 +155,21 @@ export const FEATURE_SECTIONS = () => {
 
   return sections;
 };
+
+export interface IBlog {
+  img: string;
+  title: string;
+  desc: string;
+  learn_more: string;
+  href: string;
+}
+
+export const BLOGS = () => {
+  const [t] = useTranslation("translation");
+
+  const blogs = t("pages.home.blog.blogs", {
+    returnObjects: true,
+  }) as Array<IBlog>;
+
+  return blogs;
+};

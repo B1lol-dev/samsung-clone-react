@@ -149,7 +149,41 @@
           "img": "https://images.samsung.com/is/image/samsung/assets/us/homepage/hp/04282025/SDSAC-9060-LS49FG910ENXZA-KV-HP_LOB_FullBleed_DT_1440x810.jpg?$1440_810_JPG$",
           "colorTheme": "dark"
         }
-      ]
+      ],
+      "blog": {
+        "title": "Only with Samsung",
+        "blogs": [
+          {
+            "img": "https://images.samsung.com/is/image/samsung/assets/us/home/03142025/CX-FT12-RTB-01-Galaxyclub-DT.jpg?$570_N_JPG$",
+            "title": "New Galaxy Club",
+            "desc": "Get seamless upgrades with zero worries. Join New Galaxy Club and get a year of Samsung Care+ and double the storage, plus a guaranteed trade-in credit for your future phone.",
+            "learn_more": "Learn more",
+            "href": "/smartphones/new-galaxy-club"
+          },
+
+          {
+            "img": "https://images.samsung.com/is/image/samsung/assets/us/home/03142025/CX-FT12-RTB-02-Tradein-DT.jpg?$570_N_JPG$",
+            "title": "Trade in and trade up",
+            "desc": "Trade in your old devices for instant credit towards the latest Samsung products.",
+            "learn_more": "Learn more",
+            "href": "/trade-in"
+          },
+          {
+            "img": "https://images.samsung.com/is/image/samsung/assets/us/home/03142025/CX-FT12-RTB-03-Samsumcareplus-DT.jpg?$570_N_JPG$",
+            "title": "Rest easy with Samsung Care+",
+            "desc": "Continued protection and 24/7 support after your manufacturer’s warranty ends.",
+            "learn_more": "Learn more",
+            "href": "/support/samsung-care-plus"
+          },
+          {
+            "img": "https://images.samsung.com/is/image/samsung/assets/us/home/03142025/CX-FT12-RTB-04-EPP-DT.jpg?$570_N_JPG$",
+            "title": "Save with Samsung Offer Programs",
+            "desc": "Save up to 30% through exclusive savings for students, teachers, government, military and corporate employees. You could be eligible.",
+            "learn_more": "Learn more",
+            "href": "/shop/offer-program/workplace"
+          }
+        ]
+      }
     }
   }
 }

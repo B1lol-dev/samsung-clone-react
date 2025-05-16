@@ -5,6 +5,7 @@ import { LiveBanner } from "./components/LiveBanner";
 import { NewProducts } from "./components/NewProducts";
 import { Shop } from "./components/Shop";
 import { UpgradeHomeBanner } from "./components/UpgradeHomeBanner";
+import { Blog } from "./components/Blog";
 
 export const Home = () => {
   return (
@@ -27,6 +28,7 @@ export const Home = () => {
           key={index}
         />
       ))}
+      <Blog />
     </>
   );
 };

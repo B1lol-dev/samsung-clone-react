@@ -149,7 +149,41 @@
           "img": "https://images.samsung.com/is/image/samsung/assets/us/homepage/hp/04282025/SDSAC-9060-LS49FG910ENXZA-KV-HP_LOB_FullBleed_DT_1440x810.jpg?$1440_810_JPG$",
           "colorTheme": "dark"
         }
-      ]
+      ],
+      "blog": {
+        "title": "Только с Самсунгом",
+        "blogs": [
+          {
+            "img": "https://images.samsung.com/is/image/samsung/assets/us/home/03142025/CX-FT12-RTB-01-Galaxyclub-DT.jpg?$570_N_JPG$",
+            "title": "Новый Клуб Galaxy",
+            "desc": "Получайте плавные обновления без каких-либо забот. Присоединяйтесь к New Galaxy Club и получите год Samsung Care+ и удвоение хранилища, а также гарантированный кредит на обмен вашего будущего телефона.",
+            "learn_more": "Узнать больше",
+            "href": "/smartphones/new-galaxy-club"
+          },
+
+          {
+            "img": "https://images.samsung.com/is/image/samsung/assets/us/home/03142025/CX-FT12-RTB-02-Tradein-DT.jpg?$570_N_JPG$",
+            "title": "Обмен",
+            "desc": "Обменяйте свои старые устройства на мгновенный кредит для приобретения новейших продуктов Samsung.",
+            "learn_more": "Узнать больше",
+            "href": "/trade-in"
+          },
+          {
+            "img": "https://images.samsung.com/is/image/samsung/assets/us/home/03142025/CX-FT12-RTB-03-Samsumcareplus-DT.jpg?$570_N_JPG$",
+            "title": "Будьте спокойны с Samsung Care+",
+            "desc": "Постоянная защита и круглосуточная поддержка после окончания гарантии производителя.",
+            "learn_more": "Узнать больше",
+            "href": "/support/samsung-care-plus"
+          },
+          {
+            "img": "https://images.samsung.com/is/image/samsung/assets/us/home/03142025/CX-FT12-RTB-04-EPP-DT.jpg?$570_N_JPG$",
+            "title": "Экономьте с помощью специальных программ Samsung",
+            "desc": "Сэкономьте до 30% благодаря эксклюзивным сбережениям для студентов, преподавателей, государственных служащих, военных и корпоративных служащих. Вы можете иметь право.",
+            "learn_more": "Узнать больше",
+            "href": "/shop/offer-program/workplace"
+          }
+        ]
+      }
     }
   }
 }
