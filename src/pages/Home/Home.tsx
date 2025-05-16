@@ -6,6 +6,7 @@ import { NewProducts } from "./components/NewProducts";
 import { Shop } from "./components/Shop";
 import { UpgradeHomeBanner } from "./components/UpgradeHomeBanner";
 import { Blog } from "./components/Blog";
+import { SummerUpgrades } from "./components/SummerUpgrades";
 
 export const Home = () => {
   return (
@@ -29,6 +30,7 @@ export const Home = () => {
         />
       ))}
       <Blog />
+      <SummerUpgrades />
     </>
   );
 };

@@ -183,6 +183,30 @@
             "href": "/shop/offer-program/workplace"
           }
         ]
+      },
+      "summer_upgrades": {
+        "title": "Summer upgrades",
+        "tabs": ["Wellness Refresh", "Energy Savings", "Home Upgrades"],
+        "cards": [
+          {
+            "img": "https://images.samsung.com/is/image/samsung/assets/us/home/04032025/CX-AprilBundle-Week2-HP-CO05-1-DT.jpg?$448_684_JPG$",
+            "title": "Smarter training for brighter days",
+            "desc": "Track workouts and recovery with Galaxy Watch Ultra.",
+            "btn": "Buy now"
+          },
+          {
+            "img": "https://images.samsung.com/is/image/samsung/assets/us/home/04032025/CX-AprilBundle-Week2-HP-CO05-2-DT.jpg?$448_684_JPG$",
+            "title": "Health insights to help you bloom",
+            "desc": "Get real-time insights with Galaxy Ring to feel your best.",
+            "btn": "Buy now"
+          },
+          {
+            "img": "https://images.samsung.com/is/image/samsung/assets/us/home/04032025/CX-AprilBundle-Week2-HP-CO05-3-DT.jpg?$448_684_JPG$",
+            "title": "Find your flow this season",
+            "desc": "Adaptive EQ in Galaxy Buds3 Pro adjust to you.",
+            "btn": "Buy now"
+          }
+        ]
       }
     }
   }

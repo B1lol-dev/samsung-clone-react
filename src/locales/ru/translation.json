@@ -183,6 +183,34 @@
             "href": "/shop/offer-program/workplace"
           }
         ]
+      },
+      "summer_upgrades": {
+        "title": "Летние обновления",
+        "tabs": [
+          "Оздоровительный Обновка",
+          "Экономия энергии",
+          "Модернизация дома"
+        ],
+        "cards": [
+          {
+            "img": "https://images.samsung.com/is/image/samsung/assets/us/home/04032025/CX-AprilBundle-Week2-HP-CO05-1-DT.jpg?$448_684_JPG$",
+            "title": "Более разумное обучение для ярких дней",
+            "desc": "Отслеживайте тренировки и восстановление с помощью Galaxy Watch Ultra.",
+            "btn": "Купить сейчас"
+          },
+          {
+            "img": "https://images.samsung.com/is/image/samsung/assets/us/home/04032025/CX-AprilBundle-Week2-HP-CO05-2-DT.jpg?$448_684_JPG$",
+            "title": "Информация о здоровье, которая поможет вам расцвести",
+            "desc": "Получайте информацию в режиме реального времени с помощью Galaxy Ring, чтобы чувствовать себя лучше.",
+            "btn": "Купить сейчас"
+          },
+          {
+            "img": "https://images.samsung.com/is/image/samsung/assets/us/home/04032025/CX-AprilBundle-Week2-HP-CO05-3-DT.jpg?$448_684_JPG$",
+            "title": "Найдите свой стиль в этом сезоне",
+            "desc": "Адаптивный эквалайзер в Galaxy Buds3 Pro подстраивается под вас.",
+            "btn": "Купить сейчас"
+          }
+        ]
       }
     }
   }

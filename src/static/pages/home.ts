@@ -173,3 +173,30 @@ export const BLOGS = () => {
 
   return blogs;
 };
+
+export const SUMMER_UPGRADES_TABS = () => {
+  const [t] = useTranslation("translation");
+
+  const tabs = t("pages.home.summer_upgrades.tabs", {
+    returnObjects: true,
+  }) as Array<string>;
+
+  return tabs;
+};
+
+export interface ISummerUpgradeCard {
+  img: string;
+  title: string;
+  desc: string;
+  btn: string;
+}
+
+export const SUMMER_UPGRADES_CARDS = () => {
+  const [t] = useTranslation("translation");
+
+  const cards = t("pages.home.summer_upgrades.cards", {
+    returnObjects: true,
+  }) as Array<ISummerUpgradeCard>;
+
+  return cards;
+};
