@@ -34,8 +34,8 @@ export const SummerUpgrades = () => {
           ))}
         </ul>
         <div className="flex items-center gap-6 mt-4">
-          {SUMMER_UPGRADES_CARDS().map((card) => (
-            <SummerUpgrade data={card} />
+          {SUMMER_UPGRADES_CARDS().map((card, index) => (
+            <SummerUpgrade data={card} key={index} />
           ))}
         </div>
       </Container>
