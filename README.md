@@ -1,54 +1,85 @@
-# React + TypeScript + Vite
+# Samsung Clone React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a Samsung website clone built with modern web technologies. It aims to replicate the look and feel of Samsung's website while providing a responsive and interactive user experience.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **TypeScript**: For type-safe JavaScript development.
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A fast build tool for modern web projects.
+- **TailwindCSS**: For utility-first CSS styling.
+- **ESLint**: To maintain code quality and consistency.
+- **React-Hot-Toast**: For elegant toast notifications.
+- **i18next**: For internationalization and language support.
+- **ShadCN**: A collection of accessible and customizable components.
+- **Radix UI**: For building accessible UI primitives.
+- **UUID**: For generating unique identifiers.
+- **React Router DOM**: For client-side routing.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Language Switching**: Change the website's language directly from the navbar.
+- **Hero Carousel**: A fully functional carousel on the hero section for showcasing content.
+- **Responsive Design**: Optimized for all screen sizes.
+- **Modern UI Components**: Built with ShadCN and Radix UI for accessibility and customization.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/B1lol-dev/samsung-clone-react
+cd samsung-clone-react
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Install dependencies:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+npm install
+# or
+yarn install
 ```
+
+3. Start the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`.
+
+## Scripts
+
+- `npm run dev`: Start the development server.
+- `npm run build`: Build the project for production.
+- `npm run lint`: Run ESLint to check for code quality issues.
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- [Samsung](https://www.samsung.com) for the inspiration.
+- [Vite](https://vitejs.dev) for the fast development experience.
+- [TailwindCSS](https://tailwindcss.com) for the amazing styling utilities.
+- [ShadCN](https://shadcn.dev) and [Radix UI](https://www.radix-ui.com) for accessible components.
+
+---
+
+Happy coding!
