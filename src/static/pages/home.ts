@@ -17,8 +17,7 @@ export const SLIDER_ITEMS = () => {
     },
     {
       id: 2,
-      image:
-        "https://images.samsung.com/is/image/samsung/assets/us/2505/home/hp/05082025/Scom_HP_HD01_KV4-S25U-PC.jpg?$LazyLoad_Home_JPG$",
+      image: "",
       title: t("pages.home.slider.2.title"),
       subtitle: t("pages.home.slider.2.subtitle"),
       tagline: t("pages.home.slider.2.tagline"),
@@ -29,7 +28,7 @@ export const SLIDER_ITEMS = () => {
     },
     {
       id: 3,
-      image: "/placeholder.svg?height=800&width=1600",
+      image: "",
       title: t("pages.home.slider.3.title"),
       subtitle: t("pages.home.slider.3.subtitle"),
       tagline: t("pages.home.slider.3.tagLine"),
