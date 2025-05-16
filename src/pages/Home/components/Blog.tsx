@@ -15,8 +15,8 @@ export const Blog = () => {
           {t("pages.home.blog.title")}
         </h1>
         <div className="grid grid-cols-4 justify-items-center gap-3 mt-4">
-          {BLOGS().map((blog: IBlog) => (
-            <BlogCard data={blog} />
+          {BLOGS().map((blog: IBlog, index: number) => (
+            <BlogCard data={blog} key={index} />
           ))}
         </div>
       </Container>
