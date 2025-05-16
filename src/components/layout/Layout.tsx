@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import { Header } from "./Header";
 import { ArrowUp } from "lucide-react";
 import { useEffect, useRef } from "react";
-// import { Footer } from "./Footer";
+import { Footer } from "./Footer";
 
 export const Layout = () => {
   const toTopBtnRef = useRef<HTMLButtonElement>(null);
@@ -39,7 +39,7 @@ export const Layout = () => {
       >
         <ArrowUp color="white" />
       </button>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

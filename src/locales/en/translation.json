@@ -209,5 +209,96 @@
         ]
       }
     }
+  },
+  "footer": {
+    "footer_categories": [
+      {
+        "title": "SHOP",
+        "links": [
+          "Phones",
+          "Tablets",
+          "Watches",
+          "Mobile Accessories",
+          "Mobile Audio",
+          "TV & Home Theater",
+          "Computing",
+          "Monitors",
+          "Memory & Storage",
+          "Home Appliances",
+          "Smart Home",
+          "Samsung Experience Stores",
+          "Apps & Services",
+          "Shop Certified Re-Newed",
+          "Samsung Authorized Reseller Program"
+        ]
+      },
+      {
+        "title": "SUPPORT",
+        "links": [
+          "Chat with Us",
+          "Order Help",
+          "Product Help",
+          "Your Account",
+          "Register Your Product",
+          "Request a Repair",
+          "Contact Us",
+          "Samsung Community",
+          "Give Feedback",
+          "Slide-in Electric Range Recall",
+          "Manuals & Software",
+          "Returns"
+        ]
+      },
+      {
+        "title": "OFFERS",
+        "links": [
+          "Offers",
+          "Samsung Rewards",
+          "Education Offers Program",
+          "Government Offers Program",
+          "Military Offers Program",
+          "Employee Offers Program",
+          "First Responders Offers Program",
+          "Business Offers Program"
+        ]
+      },
+      {
+        "title": "SUSTAINABILITY",
+        "links": [
+          "Overview",
+          "Environment",
+          "Digital Responsibility",
+          "Security and Privacy",
+          "Accessibility",
+          "Labor & Human Rights",
+          "Belonging & Culture",
+          "Sustainable Supply Chain",
+          "Corporate Citizenship",
+          "Corporate Sustainability"
+        ]
+      },
+      {
+        "title": "ABOUT US",
+        "links": [
+          "Leadership & Mission",
+          "Out Buisness",
+          "Brand identity",
+          "Careers",
+          "Investor Relations",
+          "Newsroom",
+          "Ethics",
+          "Samsung Design"
+        ]
+      }
+    ],
+    "copyright": "Copyright© 1995-2025 SAMSUNG. All Rights Reserved.",
+    "footer_links": [
+      "Privacy",
+      "Do Not Sell Or Share My Personal Information",
+      "Washington Privacy Notice",
+      "Legal",
+      "Accessibility Help",
+      "Sitemap"
+    ]
   }
 }
